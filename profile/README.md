@@ -15,9 +15,9 @@ Creado para la **notificación de movimiento** o también otros valores a analiz
 
 **Funciones Comunes:** Ambos dispositivos cuentan con funciones comunes como la iluminación mediante la conexión a tiras LED, la notificación de ciertos eventos como el movimiento con un zumbador o señales luminosas.
 
-## HUB:
+## [HUB](https://github.com/PortaSense/HUB):
 
-## Sensor:
+## [Sensor](https://github.com/PortaSense/SENSOR):
 
 ### Requisitos para subir el código a los dispositivos ESP32:
  - Tener [Python](https://www.python.org/) instalado en tu ordenador :)
