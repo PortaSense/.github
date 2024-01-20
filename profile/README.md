@@ -27,3 +27,4 @@ Creado para la **notificación de movimiento** o también otros valores a analiz
    > - Descarga el firmware para tu microcontrolador. Este proyecto utilizará este: [Firmware ESP32 Genérico 1.22.1](https://www.micropython.org/download/ESP32_GENERIC/)
    > - Instala el firmware descargado [esptool](https://github.com/espressif/esptool/) al puerto COM de asignado a tu dispositivo. *En caso de que no puedas ejecutar los comandos de esptool, debes intalar también* [setuptools](https://pypi.org/project/setuptools/)
    > - ***Instrucciones:** En la página de descarga del firmware se encuentra una guía de instalación desde **Linux**; **Windows:** **1.** `esptool --chip esp32 --port com6 erase_flash` **2.** `esptool --chip esp32 --port com6 --baud 460800 write_flash -z 0x1000 ESP32_GENERIC-20240105-v1.22.1.bin`* 
+ - Para subir el código se ha utilizado [Pymaker](https://docs.pycom.io/gettingstarted/software/vscode/) en VSCode
